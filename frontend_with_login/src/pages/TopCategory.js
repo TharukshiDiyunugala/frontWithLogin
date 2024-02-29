@@ -139,7 +139,7 @@ export default function App() {
         </SwiperSlide>
       </Swiper>
       
-      <section style={{ marginTop: '120px' }}>
+      <section style={{ marginTop: '100px' }}>
   <div className='container'>
     <div className='row justify-content-between'>
       <div className='col-md-3 mb-3'>

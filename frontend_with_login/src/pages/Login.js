@@ -41,7 +41,7 @@ const Login = () => {
                                             <Link to="/forgot-password" className='auth-card-link d-flex'>Forgot Password?</Link>
                                         </div>
                                         <div className=' d-flex justify-content-center '>
-                                            <Link to="/signIn" className='button signIn'>Login</Link>
+                                            <Link to="/Myshop" className='button signIn'>Login</Link>
                                         </div>
                                         <div>
                                             <h9>Don't have account?</h9>

@@ -109,7 +109,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/shop" className="nav-link">
+                <NavLink to="/shop" className="nav-link" aria-current="page">
                   Shop
                 </NavLink>
               </li>
@@ -125,8 +125,8 @@ const Header = () => {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink to="/" className="dropdown-item">
-                      Action
+                    <NavLink to="/Myshop" className="dropdown-item">
+                     Sell your Goods
                     </NavLink>
                   </li>
                   <li>
