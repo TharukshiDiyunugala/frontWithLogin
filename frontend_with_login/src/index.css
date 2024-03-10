@@ -361,3 +361,41 @@ body {
   color: #131921;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 0 0 23%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+.header {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  overflow: hidden; /* Ensure the height is respected */
+}
+.cell-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.text-content {
+  flex-grow: 1;
+}
+

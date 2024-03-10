@@ -8,6 +8,7 @@ import { Pagination } from 'swiper/modules';
 import {FaStar} from "react-icons/fa6"
 import NewProducer from './NewProducer';
 import TopCategory from './TopCategory';
+import FeaturedProduct from './FeaturedProduct';
 
 const HomePage = () => {
   return (
@@ -105,6 +106,9 @@ const HomePage = () => {
         <h2 className='text-5xl font-bold text-center mb-10 leading-snug'>Featured Products</h2>
     </div>
     </section>
+    <section style={{ marginTop: '20px' }}>
+      <FeaturedProduct/>
+      </section>
       <section style={{ marginTop: '20px' }}>
       <div className='my-12 px-4 lg:px-24 '>
         <h2 className='text-5xl font-bold text-center mb-10 leading-snug'>Top Category</h2>
