@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 const NewestProduct = () => {
   return (
     <div className='my-12 px-4 lg:px-24'>
-      <h2 className='text-5xl font-bold mb-10 leading-snug'>Newest Product</h2>
+      <h2 style={{ marginTop: '50px', fontFamily: 'Poppins, sans-serif', fontWeight: '600', fontSize: '46px' }} 
+      className='text-5xl font-bold text-center mb-10 leading-snug'>Newest Product</h2>
+
             <div className='container-xxl'>
             
               <div className='row'>
