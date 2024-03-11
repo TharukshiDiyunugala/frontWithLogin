@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { CiLocationOn } from "react-icons/ci";
 import { FaPhoneVolume } from "react-icons/fa6";
+
 const Header = () => {
   return (
     <div>
