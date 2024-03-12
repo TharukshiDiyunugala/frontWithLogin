@@ -8,7 +8,7 @@ import Resetpassword from './pages/Resetpassword';
 import Shop from './pages/shop';
 import Myshop from './pages/Myshop';
 import AboutUs from './pages/aboutUs';
-
+import Cart from './pages/cart';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/Myshop" element={<Myshop />} />
         <Route path="/aboutUs" element={<AboutUs />} />
-       
+        <Route path ="/cart" element={<Cart />} />       
         
       </Routes>
     </>
