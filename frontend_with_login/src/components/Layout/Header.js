@@ -78,7 +78,6 @@ const Header = () => {
                 <div>
                   <Link>
                     <img src="/" alt="" />
-                    <p></p>
                   </Link>
                 </div>
               </div>
@@ -109,7 +108,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/shop" className="nav-link">
+                <NavLink to="/ourstore" className="nav-link">
                   Shop
                 </NavLink>
               </li>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '../components/Layout/Layout';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,8 +8,33 @@ import { Pagination } from 'swiper/modules';
 import {FaStar} from "react-icons/fa6"
 import NewProducer from './NewProducer';
 import TopCategory from './TopCategory';
+import Typed from 'typed.js';
 
 const HomePage = () => {
+  useEffect(() => {
+    const strings = ['Fresh & Healthy', 'Organic Food'];
+    const options = {
+      strings: strings,
+      typeSpeed: 300, 
+      backSpeed: 200,
+      showCursor: false,
+      onComplete: (self) => {
+        self.el.textContent = strings.join(' ');
+
+      setTimeout(() => {
+          self.cursor = self.options.cursorChar ? document.createElement('span') : document.createElement('div');
+          self.el.appendChild(self.cursor);
+          self.begin();
+      }, 500);
+      },
+    };
+
+    const typed = new Typed('.typed-text', options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <>
       <Layout title="LuxeMART - Best Offers">
@@ -25,7 +50,7 @@ const HomePage = () => {
                   />
                   <div className='container-xl'>
                     <div className='main-banner-content position-absolute '>
-                      <h3>Fresh & Healthy <br /> Organic Food</h3>
+                      <h3 className="typed-text">Fresh & Healthy <br /> Organic Food</h3>
                       <h5>Sale up to <span className="discount">30% OFF</span></h5>
                       <Link to='/shop-route' className='button button-outline-success'>Shop Now</Link>
                     </div>
