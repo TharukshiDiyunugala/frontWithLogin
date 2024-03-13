@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Layout from '../components/Layout/Layout';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const tableStyle = {
@@ -105,29 +106,45 @@ const Cart = () => {
       </section>
      
       <section style={cartTotalStyle}>
-      <div className='my-12 px-4 lg:px-24 '>
-        <h3 style={{ textAlign: 'center', marginBottom: '20px' }}>Cart Total</h3>
-        <div>
-          <div>Subtotal: </div>
-          <div>Shipping: </div>
-          <div style={{ fontWeight: 'bold', marginTop: '10px' }}>Total: </div>
-        </div>
-        <button
-          style={{
-            width: '100%',
-            padding: '10px',
-            backgroundColor: '#00B307',
-            borderRadius: '5px',
-            color: '#FFFFFF',
-            marginTop: '20px',
-            border:'#FFFFFF'
-          }}
-        >
-          Proceed to Checkout
-        </button>
-        </div>
-      </section>
-      
+  <div className='my-12 px-4 lg:px-24'>
+    <h3 style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1.5rem', color: '#333' }}>Cart Total</h3>
+    <div style={{ backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '10px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+        <div>Subtotal:</div>
+        <div>$100.00</div>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '10px' }}>
+        <div>Shipping:</div>
+        <div>$10.00</div>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div style={{ fontWeight: 'bold' }}>Total:</div>
+        <div style={{ fontWeight: 'bold' }}>$110.00</div>
+      </div>
+    </div>
+    <Link to='/checkouts'>
+      <button
+        style={{
+          width: '100%',
+          padding: '15px',
+          backgroundColor: '#00B307',
+          borderRadius: '5px',
+          color: '#FFFFFF',
+          marginTop: '20px',
+          border: 'none',
+          cursor: 'pointer',
+          fontSize: '1rem',
+          fontWeight: 'bold',
+          boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
+          transition: 'background-color 0.3s ease',
+        }}
+      >
+        Proceed to Checkout
+      </button>
+    </Link>
+  </div>
+</section>
+
     </Layout>
   );
 };

@@ -214,7 +214,7 @@ const FeaturedProduct = () => {
         <div style={{ position: 'absolute', top: '100px', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
           <p style={{ fontSize: '24px', lineHeight: '1.5', marginBottom: '12px', fontFamily: 'Poppins', fontSize: '14px',color: 'black' }}>SUMMER SALE</p>
           <p style={{ fontSize: '30px', lineHeight: '1.5',color: 'green' }}>75% Off</p>
-          <button onClick={() => window.location.href = '/shop'} style={{ backgroundColor: 'yellow', color: 'black', padding: '10px 20px', borderRadius: '25px', marginTop: '5px', border: '2px solid white', position: 'relative' }}>
+          <button onClick={() => window.location.href = '/ourstore/tag/All'} style={{ backgroundColor: 'yellow', color: 'black', padding: '10px 20px', borderRadius: '25px', marginTop: '5px', border: '2px solid white', position: 'relative' }}>
             Shop Now
             <span style={{ marginLeft: '5px', color: 'black', fontSize: '18px' }}>&#8594;</span>
           </button>
