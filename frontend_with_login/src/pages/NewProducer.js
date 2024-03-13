@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NewestProduct = () => {
   return (
+   
     <div className='my-12 px-4 lg:px-24'>
       <h2 style={{ marginTop: '50px', fontFamily: 'Poppins, sans-serif', fontWeight: '600', fontSize: '46px' }} 
       className='text-5xl font-bold text-center mb-10 leading-snug'>Newest Product</h2>
@@ -12,6 +13,7 @@ const NewestProduct = () => {
               <div className='row'>
                 <div className='col-20 '>
                   <div className='services d-flex align-items-center justify-content-between'>
+         
                   <div className="product-item" style={{flex:0}}>
           <div style={{ width: 248, height: 339, position: 'relative', background: 'white', borderRadius: 8, overflow: 'hidden', border: '1px #E6E6E6 solid' }}>
             <div style={{ padding: 1, left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex', flexDirection: 'column', height: '100%' }}>
@@ -68,7 +70,7 @@ const NewestProduct = () => {
             </div>
           </div>
         </div>
-       
+        
      
       </div>
       
@@ -93,6 +95,7 @@ const NewestProduct = () => {
         </button>
       </Link>
     </div>
+   
   );
 }
 
