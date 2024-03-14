@@ -102,6 +102,105 @@ export const sample_products_Biscuit=[
     tags: ['Grocery', 'Fresh Fruits']
      
  },
+ {
+   id: "10",
+   name: "Green Apple",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/green-apple-isolated-white (1).jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "11",
+   name: "Orange",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/orange-juicy-ripe-circle-citrus.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "12",
+   name: "Green Latuce",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/white-vegetable-healthy-fresh-natural.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "13",
+   name: "Eggplant",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/eggplant.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "14",
+   name: "Red Capsicum",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/bell-pepper.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "15",
+   name: "Tomatoes",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/big-red-fresh-tomatoes-wooden-board.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "16",
+   name: "Potatoes",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/potato-sack-isolated-white.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "17",
+   name: "Corns",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/corn-isolated.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
+{
+   id: "18",
+   name: "Corns",
+   unit: "1",
+   price: "80.00",
+   description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+   favorite: false,
+   imageUrl: '/images/cauliflower-isolated.jpg',
+   tags: ['Grocery', 'Fresh Fruits']
+    
+},
 
 
 
