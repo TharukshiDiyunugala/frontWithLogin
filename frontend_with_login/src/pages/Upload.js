@@ -105,7 +105,7 @@ const Upload = () => {
 
 {isGoodsAdded && (
   <div className="text-green-600 font-bold mt-2">
-    Goods added successfully! Redirecting to shop...
+    Goods added successfully! Redirecting to shop....
   </div>
 )}
 
