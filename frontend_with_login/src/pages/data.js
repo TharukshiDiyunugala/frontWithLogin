@@ -44,6 +44,67 @@ export const sample_products_Biscuit=[
    tags: ['Grocery', 'Fresh Fruits']
     
 },
+{
+    id: "5",
+    name: "Apple",
+    unit: "1",
+    price: "80.00",
+    description: "Green Apples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+    favorite: false,
+    imageUrl: '/images/gala-apple-1_1.png',
+    tags: ['Grocery', 'Fresh Fruits']
+     
+ },
+ {
+    id: "6",
+    name: "Vegitables",
+    unit: "1",
+    price: "80.00",
+    description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+    favorite: false,
+    imageUrl: '/images/fresh-healthy-raw-vegetables-tray-white-background.jpg',
+    tags: ['Grocery', 'Fresh Fruits']
+     
+ },
+
+ {
+    id: "7",
+    name: "Ginger",
+    unit: "1",
+    price: "80.00",
+    description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+    favorite: false,
+    imageUrl: '/images/240_F_627167800_XG8OaUtP06mA760VF9mguhYJo3CVDOAf.jpg',
+    tags: ['Grocery', 'Fresh Fruits']
+     
+ },
+
+ {
+    id: "8",
+    name: "Mushrooms",
+    unit: "1",
+    price: "80.00",
+    description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+    favorite: false,
+    imageUrl: '/images/240_F_661545048_HUkpRiaKau63BR6NsiFXM63WHPCacX3n.jpg',
+    tags: ['Grocery', 'Fresh Fruits']
+     
+ },
+
+ {
+    id: "9",
+    name: "Corns",
+    unit: "1",
+    price: "80.00",
+    description: "Pineapples are tropical fruits known for their sweet and tangy taste. They are rich in vitamin C and can be enjoyed fresh or used in various culinary delights.",
+    favorite: false,
+    imageUrl: '/images/240_F_707096425_agtmjj02B8If8LjqvaH9oTK9awfMTgRG.jpg',
+    tags: ['Grocery', 'Fresh Fruits']
+     
+ },
+
+
+
 
 
 ];

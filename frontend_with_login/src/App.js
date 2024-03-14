@@ -11,6 +11,7 @@ import Cart from './pages/cart';
 import SingleProduct from './pages/SingleProduct';
 import OurStore from './pages/OurStore';
 import Contact from './pages/Contact';
+import Checkouts from './pages/checkouts';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         <Route path="*" element={<Pagenotfound />} />
         <Route path="/Myshop" element={<Myshop />} />
         <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path ="/cart" element={<Cart />} />       
+        <Route path ="/cart" element={<Cart />} />     
+        <Route path ="/checkouts" element={<Checkouts />} />  
         
       </Routes>
     </>

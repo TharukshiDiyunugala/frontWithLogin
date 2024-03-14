@@ -78,7 +78,7 @@ const NewestProduct = () => {
   </div>
   </div>
 
-      <Link to="/shop" className='text-green-700'>
+      <Link to="/ourstore" className='text-green-700'>
         <button
           style={{
             backgroundColor: 'transparent',

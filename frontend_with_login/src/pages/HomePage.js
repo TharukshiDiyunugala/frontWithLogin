@@ -53,7 +53,7 @@ const HomePage = () => {
                     <div className='main-banner-content position-absolute '>
                       <h3 className="typed-text">Fresh & Healthy <br /> Organic Food</h3>
                       <h5>Sale up to <span className="discount">30% OFF</span></h5>
-                      <Link to='/shop-route' className='button button-outline-success'>Shop Now</Link>
+                      <Link to='/ourstore/tag/All' className='button button-outline-success'>Shop Now</Link>
                     </div>
                   </div>
                 </div>
@@ -125,8 +125,12 @@ const HomePage = () => {
 
           </div>
         </section>
+        <section>
+        <h2 style={{ marginTop: '50px', fontFamily: 'Poppins, sans-serif', fontWeight: '600', fontSize: '46px' }} 
+      className='text-5xl font-bold text-center mb-10 leading-snug'>Featured Product</h2>
+        </section>
 
-        <section style={{ marginTop: '20px' }}>
+        <section style={{ marginTop: '50px' }}>
       <FeaturedProduct/>
       </section>
       <section style={{ marginTop: '20px' }}>
