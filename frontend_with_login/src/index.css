@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap'); */
 
 * {
   margin: 0;
@@ -101,7 +101,6 @@ body {
 
 .btn-outline-success:hover {
   background-color: #eca21a;
-  ;
   color: #131921;
 }
 
@@ -361,3 +360,235 @@ body {
   color: #131921;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 0 0 23%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+.header {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  overflow: hidden; /* Ensure the height is respected */
+}
+.cell-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.text-content {
+  flex-grow: 1;
+}
+
+/*Produt card */
+
+.product-card{
+  padding:15px;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.product-card .product-image{
+  height: 270px;
+}
+.product-card .product-image img{
+  object-fit: contain;
+}
+.product-card .product-image>img:last-child{
+  display: none;
+}
+.product-card .product-image>img:nth-child(1){
+  display: none;
+}
+
+.product-card .product-image>img:last-child{
+  display: block;
+}
+
+.product-card .product-details h6{
+  color: var(#bf4800);
+  font-size: 13px;
+}
+
+.product-card .product-details h5{
+  font-size: 15px;
+  color: var(#1c1c1b);
+}
+.product-card p.description{
+  font-size: 13px;
+  color: #777777;
+  margin-right: 20px;
+}
+.product-card .product-details p.price{
+  font-size: 16px;
+  color: var(#1c1c1b);
+}
+
+/*Our store*/
+.filter-card{
+  background-color: rgb(151, 147, 147);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.filter-title{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.filter-card ul,
+.filter-card .form-check-label{
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(#777777);
+  cursor: pointer;
+}
+
+.filter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color: rgba(0,0,0,0.25);
+}
+
+.filter-card .form-check-input:checked{
+  background-color: #febd69;
+  border-color: #febd69;
+}
+
+.sub-title{
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.custom-input {
+  width:  70%;
+  height: 40px !important; 
+  font-size: 70%;
+  padding: 1px;
+  min-height: 40px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .filter-card {
+    padding: 10px;
+  }
+
+  .filter-card .form-check-label {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .filter-card .form-check-label {
+    font-size: 60%;
+    justify-content: flex-start !important;
+  }
+}
+
+.form-floating label {
+  font-size: 12px; 
+}
+
+@media (max-width: 767px) {
+  .form-floating label {
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-floating label {
+      font-size: 9px; 
+  }
+}
+
+
+.ilter-sort-grid{
+  padding: 1px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.grid img{
+  width: 29px;
+  height:29px;
+  background-color:#f2f2f2;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+
+/* Contact Page*/
+
+.contact-inner-wrapper{
+  padding: 30px 20px;
+  border-radius: 20px;
+  background-color: rgb(205, 182, 182);
+  gap:12px;
+}
+
+.contact-inner-wrapper > div{
+  width: 48%;
+}
+.contact-title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 0;
+}
+.contact-inner-wrapper form .form-control {
+  inline-size: 90%;
+  border-color: transparent;
+  font-size: 12px;
+  background-color: #f5f5f7;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* single Product */
+
+.description-wrapper h4{
+  font-size: 24px;
+  color: #1c1c1b;
+}
+
+.description-wrapper p{
+  font-size: 14px;
+  color: #777777;
+}
+.main-product-image{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.main-product-image >div{
+  border:1px solid rgba(0,0,0,0.25)
+}
+.main-product-image{
+  width:100% !important;
+  height: 500px !important;
+  object-fit: cover;
+}
