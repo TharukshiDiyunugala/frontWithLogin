@@ -30,7 +30,7 @@ const Login = () => {
                                             className='form.control' />
                                     </div>
                                     <div>
-                                        <div className='d-flex align-items-center mt-2'>
+                                        {/* <div className='d-flex align-items-center mt-2'>
                                             <input
                                                 type='checkbox'
                                                 name='rememberMe'
@@ -39,7 +39,7 @@ const Login = () => {
                                             <label className='form-check-label ms-2'>Remember Me</label>
 
                                             <Link to="/forgot-password" className='auth-card-link d-flex'>Forgot Password?</Link>
-                                        </div>
+                                        </div> */}
                                         <div className=' d-flex justify-content-center '>
                                             <Link to="/Myshop" className='button signIn'>Login</Link>
                                         </div>
