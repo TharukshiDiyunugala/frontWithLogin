@@ -5,7 +5,7 @@ export default function Upload() {
   const [file, setFile] = useState(null);
   const [imageUpload, setImageUpload] = useState(null);
   const [imageUploadError, setImageUploadError] = useState(null);
-  
+
 
   return (
     <div className="px-4 my-12 ">
@@ -16,6 +16,8 @@ export default function Upload() {
         style={{ display: "flex", justifyContent: "left", marginTop: "30px" }}
         className="d-flex justify-content-center"
       >
+
+      
         <div
           style={{
             backgroundColor: "#f0f0f0",
