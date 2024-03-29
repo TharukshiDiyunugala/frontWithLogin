@@ -1,9 +1,13 @@
+// Header.js
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { CiLocationOn } from "react-icons/ci";
 import { FaPhoneVolume } from "react-icons/fa6";
+import { useSelector } from 'react-redux';
 
 const Header = () => {
+  const { currentUser } = useSelector((state) => state.user);
+
   return (
     <div>
       <header className='header-top-strip py-1'>
@@ -101,7 +105,7 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ color: '00B207',marginLeft: '300px' }}>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ color: '00B207', marginLeft: '300px' }}>
             <ul className="navbar-nav mx-auto ">
               <li className="nav-item">
                 <NavLink to="/" className="nav-link" aria-current="page">
@@ -126,11 +130,13 @@ const Header = () => {
                   Pages
                 </NavLink>
                 <ul className="dropdown-menu">
-                  <li>
-                    <NavLink to="/Myshop" className="dropdown-item">
-                     Sell your Goods
-                    </NavLink>
-                  </li>
+                  {currentUser && currentUser.isAdmin && (
+                    <li>
+                      <NavLink to="/Myshop" className="dropdown-item">
+                        Sell your Goods
+                      </NavLink>
+                    </li>
+                  )}
                   <li>
                     <NavLink to="/" className="dropdown-item">
                       Another action

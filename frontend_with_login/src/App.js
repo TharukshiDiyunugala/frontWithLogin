@@ -12,6 +12,7 @@ import SingleProduct from './pages/SingleProduct';
 import OurStore from './pages/OurStore';
 import Contact from './pages/Contact';
 import Checkouts from './pages/checkouts';
+import OnlyAdminPrivateRoute from './components/OnlyAdminPrivateRoute';
 
 function App() {
   return (
@@ -28,10 +29,13 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<Resetpassword />} />
         <Route path="*" element={<Pagenotfound />} />
-        <Route path="/Myshop" element={<Myshop />} />
+      
         <Route path="/aboutUs" element={<AboutUs />} />
         <Route path ="/cart" element={<Cart />} />     
         <Route path ="/checkouts" element={<Checkouts />} />  
+
+        <Route element={<OnlyAdminPrivateRoute />} > <Route path="/Myshop" element={<Myshop />} /></Route>
+        
         
       </Routes>
     </>

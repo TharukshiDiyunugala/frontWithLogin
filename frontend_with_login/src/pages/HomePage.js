@@ -9,6 +9,7 @@ import {FaStar} from "react-icons/fa6"
 import NewProducer from './NewProducer';
 import TopCategory from './TopCategory';
 import Typed from 'typed.js';
+
 import FeaturedProduct from './FeaturedProduct';
 
 const HomePage = () => {
