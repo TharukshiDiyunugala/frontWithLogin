@@ -8,6 +8,8 @@ export default function Upload() {
 
 
   return (
+
+    
     <div className="px-4 my-12 ">
       <section className="d-flex justify-content-center">
         <h2 className="mb-8 text-3xl font-bold">Add Goods to the LuxeMART</h2>
@@ -17,7 +19,7 @@ export default function Upload() {
         className="d-flex justify-content-center"
       >
 
-      
+
         <div
           style={{
             backgroundColor: "#f0f0f0",
